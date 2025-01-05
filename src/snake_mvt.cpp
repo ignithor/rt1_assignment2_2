@@ -27,6 +27,7 @@ private:
     {
       twist.linear.x = 0.0;
       twist.angular.z = 0.0;
+      RCLCPP_INFO(this->get_logger(), "The robot has stopped because it's near the threshold.");
     }
     else if (x > 8.5)
     {
