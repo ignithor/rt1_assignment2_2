@@ -28,7 +28,7 @@ Then, source your workspace with:
     ```
 2. In another terminal, run the control node:
     ```bash
-    ros2 run rt1_assignment2_2 control_node
+    ros2 run rt1_assignment2_2 snake_mvt
     ```
 
 Then, you will see the mobile robot moving like a snake in the square [0:10]X[0:10] in Gazebo.
